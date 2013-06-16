@@ -6,7 +6,8 @@ try {
 
 
     $Contact = ORM::for_table('contact')->table_alias('c');
-    $Contact->where('is_company',1);
+    $Contact->where('is_company',0);
+    $Contact->where('company_id',$this->values['parent_identifier'][0]);
     $this->REST_fields($Contact);
     $Contact = $Contact->find_one($this->values['identifier']);
 
@@ -15,14 +16,7 @@ try {
 
         $this->data['data'] = $Contact->as_array();
 
-        //persons
-        if ($this->fieldgroups['persons']) {
-            $Persons = ORM::for_table('contact')->table_alias('c')->where('company_id', $this->values['identifier']);
-            $this->REST_fields($Persons);
-            $this->data['data']['persons'] =$Persons->find_array();
-        }
-
-         //email
+        //email
         if ($this->fieldgroups['email']) {
             $this->data['data']['email'] = ORM::for_table('contact_email')->where('contact_id', $this->values['identifier'])->find_array();
         }
