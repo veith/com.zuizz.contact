@@ -1,0 +1,97 @@
+{"title": "Update contact data", "request": "com.zuizz.contact.contacts.addresses", "method": "PUT", "description": "Please describe the restlet", "parameter": {
+    "identifier": {
+        "description": "Identifier field",
+        "name": "identifier",
+        "type": "0",
+        "required": 0,
+        "default_value": "",
+        "regularexpression": ""
+    },
+    "street": {
+        "description": "Street",
+        "name": "street",
+        "type": "1",
+        "required": 0,
+        "default_value": "",
+        "regularexpression": ""
+    },
+    "street_no": {
+        "description": "street_no",
+        "name": "street_no",
+        "type": "1",
+        "required": 0,
+        "default_value": "",
+        "regularexpression": ""
+    },
+    "city": {
+        "description": "city",
+        "name": "city",
+        "type": "1",
+        "required": 0,
+        "default_value": "",
+        "regularexpression": ""
+    },
+    "postal_code": {
+        "description": "postal_code",
+        "name": "postal_code",
+        "type": "1",
+        "required": 0,
+        "default_value": "",
+        "regularexpression": ""
+    },
+    "country": {
+        "description": "",
+        "name": "country",
+        "type": "2",
+        "required": 0,
+        "default_value": "",
+        "regularexpression": ""
+    },
+    "label_id": {
+        "description": "label_id",
+        "name": "label_id",
+        "type": "2",
+        "required": 0,
+        "default_value": "",
+        "regularexpression": ""
+    },
+    "parent_identifier": {
+        "description": "",
+        "name": "parent_identifier",
+        "regularexpression": "",
+        "default_value": "",
+        "type": "7",
+        "required": 0
+    }
+}, "states": {
+    "422": {
+        "code": 422,
+        "message": "Nicht verarbeitbare Daten",
+        "description": "Die Daten konnten nicht verarbeitet werden. Allf\u00e4llige Detail sind im response body."
+    },
+    "202": {
+        "code": "202",
+        "message": "OK",
+        "description": "Objekt wurde aktualisiert.\r\nAllf\u00e4llige Details sind im response body."
+    },
+    "404": {
+        "code": 404,
+        "message": "Nicht vorhanden",
+        "description": "Objekt mit Identifier nicht gefunden oder nicht vorhanden"
+    }
+}, "permission": [
+    {
+        "role": "User",
+        "description": "Authentifizierte Benutzer k\u00f6nnen..."
+    },
+    {
+        "role": "Administrator",
+        "description": "Rolle Administrator kann..."
+    }
+], "mimetype": {
+    "json": {
+        "name": "json",
+        "is_default": true,
+        "response": "Details zum Vorgang als json Objekt."
+    }
+}}

@@ -1,0 +1,77 @@
+<div class="{"contactlist"|Tc}" data-connectors="">
+
+    <div class="pre-scrollable">
+        <div class="well well-small">
+            <strong>Niederberger Urban</strong><br>
+
+            Finanzdirektion Kanton Zürich - KITT Geschäftsstelle
+
+        </div>
+
+        <div class="well well-small">
+            <strong>Vorname Name</strong><br>
+            Fimenname der Firma
+
+        </div>
+        <div class="well well-small">
+            <strong>Vorname Name</strong><br>
+            Fimenname der Firma
+        </div>
+
+        <div class="well well-small">
+            <strong>Vorname Name</strong><br>
+            Fimenname der Firma
+        </div>
+        <div class="well well-small">
+            <strong>Vorname Name</strong><br>
+            Fimenname der Firma
+        </div>
+
+        <div class="well well-small">
+            <strong>Vorname Name</strong><br>
+            Fimenname der Firma
+        </div>
+        <div class="well well-small">
+            <strong>Vorname Name</strong><br>
+            Fimenname der Firma
+        </div>
+
+        <div class="well well-small">
+            <strong>Vorname Name</strong><br>
+            Fimenname der Firma
+        </div>
+        <div class="well well-small">
+            <strong>Vorname Name</strong><br>
+            Fimenname der Firma
+        </div>
+
+        <div class="well well-small">
+            <strong>Vorname Name</strong><br>
+            Fimenname der Firma
+        </div>
+        <div class="well well-small">
+            <strong>Vorname Name</strong><br>
+            Fimenname der Firma
+        </div>
+
+        <div class="well well-small">
+            <strong>Vorname Name</strong><br>
+            Fimenname der Firma
+        </div>
+
+
+    </div>
+
+
+    <script class="dot" type="text/text/x-dot-template" name="list">
+
+        <div class="well">
+            <strong>Vorname Name</strong><br>
+            Fimenname der Firma
+            Strasse <br>
+            9999 Ort
+        </div>
+
+    </script>
+
+</div>
